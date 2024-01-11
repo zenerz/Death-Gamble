@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://cilsbvrie6sck"]
+[gd_scene load_steps=2 format=3 uid="uid://cilsbvrie6sck"]
 
-[node name="Node3D" type="Node3D"]
+[sub_resource type="BoxMesh" id="BoxMesh_153l0"]
+lightmap_size_hint = Vector2i(14, 21)
+
+[node name="Node3D" type="MeshInstance3D"]
+mesh = SubResource("BoxMesh_153l0")

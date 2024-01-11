@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dearmjc0qlh8c"]
+
+[ext_resource type="PackedScene" uid="uid://cilsbvrie6sck" path="res://scripts/tscn/node_3d.tscn" id="1_dely3"]
+
+[node name="MainGame" type="Node3D"]
+
+[node name="Node3D" parent="." instance=ExtResource("1_dely3")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.605564, 1.77163)
